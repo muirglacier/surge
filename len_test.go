@@ -6,7 +6,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/renproject/surge"
+	"github.com/muirglacier/surge"
 )
 
 var _ = Describe("Slice length", func() {

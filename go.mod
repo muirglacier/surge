@@ -1,4 +1,4 @@
-module github.com/renproject/surge
+module github.com/muirglacier/surge
 
 go 1.16
 

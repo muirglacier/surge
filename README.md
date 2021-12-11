@@ -1,10 +1,10 @@
 # `🔌 surge`
 
-[![GitHub](https://github.com/renproject/surge/workflows/test/badge.svg)](https://github.com/renproject/surge/workflows/test/badge.svg)
+[![GitHub](https://github.com/muirglacier/surge/workflows/test/badge.svg)](https://github.com/muirglacier/surge/workflows/test/badge.svg)
 [![Coverage](https://coveralls.io/repos/github/renproject/surge/badge.svg?branch=master)](https://coveralls.io/github/renproject/surge?branch=master)
-[![Report](https://goreportcard.com/badge/github.com/renproject/surge)](https://goreportcard.com/badge/github.com/renproject/surge)
+[![Report](https://goreportcard.com/badge/github.com/muirglacier/surge)](https://goreportcard.com/badge/github.com/muirglacier/surge)
 
-[Documentation](https://godoc.org/github.com/renproject/surge)
+[Documentation](https://godoc.org/github.com/muirglacier/surge)
 
 A library for fast binary (un)marshaling. Designed to be used in Byzantine networks, `🔌 surge` never explicitly panics, protects against malicious inputs, allocates minimally, and has very few dependencies (its only dependency is the [`ginkgo`](https://onsi.github.io/ginkgo) testing framework). It supports the (un)marshaling of:
 
@@ -243,7 +243,7 @@ When using specialised implementations, `surge` is about as fast as you can get;
 ```
 goos: darwin
 goarch: amd64
-pkg: github.com/renproject/surge
+pkg: github.com/muirglacier/surge
 BenchmarkPointMarshalJSON-8              2064483               563 ns/op              80 B/op          1 allocs/op
 BenchmarkTriangleMarshalJSON-8            583173              1752 ns/op             239 B/op          1 allocs/op
 BenchmarkModelMarshalJSON-8                 7018            163255 ns/op           24588 B/op          1 allocs/op

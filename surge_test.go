@@ -8,7 +8,7 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/renproject/surge"
+	"github.com/muirglacier/surge"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

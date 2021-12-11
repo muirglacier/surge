@@ -7,7 +7,7 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/renproject/surge"
+	"github.com/muirglacier/surge"
 )
 
 // MarshalUnmarshalCheck generates a random instance of a type, marshals it into

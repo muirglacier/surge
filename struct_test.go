@@ -5,7 +5,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/renproject/surge/surgeutil"
+	"github.com/muirglacier/surge/surgeutil"
 )
 
 type MyStruct struct {
